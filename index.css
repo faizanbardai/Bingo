@@ -1,5 +1,6 @@
-#bingoBoard {
+#bingoBoard, .userBoard {
     width: 200px;
+    padding: 10px;
 }
 
 .bingoBoardNumber {
