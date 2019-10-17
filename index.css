@@ -1,0 +1,13 @@
+#bingoBoard {
+    width: 200px;
+}
+
+.bingoBoardNumber {
+    list-style-type: none;
+    float: Left;
+    width: 30px;
+}
+
+.selected {
+    text-decoration: underline;
+}

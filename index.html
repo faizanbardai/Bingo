@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
     <title>Bingo Game</title>
 </head>
+
 <body>
+    <div id="bingoBoard">
+        <p>Main Bingo Board</p>
+    </div>
+    <div id="rdnNumGen">
+        <button type="button" onclick=genRndNum()>Press me</button>
+        <p id="newNum"></p>
+    </div>
+    <div class = "userBoard">
+        <p>User Board</p>
+    </div>
     
 </body>
+
 </html>
